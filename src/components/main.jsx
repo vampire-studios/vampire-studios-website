@@ -2,8 +2,16 @@ import React, { Component } from "react";
 
 class Main extends Component {
   render() {
-    return <h1>Hello world!</h1>;
+    return (
+      <div style={this.textStyle}>
+        <h1>Hello world!</h1>
+      </div>
+    );
   }
+
+  textStyle = {
+    color: "#ffffff"
+  };
 }
 
 export default Main;
