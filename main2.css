@@ -1,16 +1,23 @@
 @import url(https://fonts.googleapis.com/icon?family=Material+Icons);
 :root {
-  --theme-color: white;
-  --primary-color: #6441a4;
-  --primary-color-darker: #3e1b7e;
-  --primary-color-brighter: #a481e4;
-  --primary-color-low-opacity: #6441a466;
-  --compliment-color: #eceff1;
-  --compliment-color-darker: #d3d6d8;
-  --compliment-color-brighter: #f9fcfe;
-  --accent-color: #17141f;
-  --accent-color-darker: #0a0712;
-  --accent-color-brighter: #3d3a45;
+  --primary-color: #302AE6;
+  --secondary-color: #536390;
+  --font-color: #424242;
+  --bg-color: #fff;
+  --heading-color: #292922;
+}
+
+[theme=dark] {
+  --primary-color: #9A97F3;
+  --secondary-color: #818cab;
+  --font-color: #e1e1ff;
+  --bg-color: #161625;
+  --heading-color: #818cab;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--font-color);
 }
 
 header {
