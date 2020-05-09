@@ -333,12 +333,31 @@ header {
 
   @media (prefers-color-scheme: light) {
     body {
-      background-color: #0f0;
+      background-color: #C36B5B;
+      color: #e1e1ff;
+    }
+    .dark-themed {
+      background-color: #9C6054;
+    }
+    .dark-themed a {
+      color: white;
+    }
+    .dark-themed h6 {
+      color: lightgrey;
     }
   }
-  
+
   @media (prefers-color-scheme: dark) {
     body {
-      background-color: #0f0;
+      background-color: #66544C;
+    }
+    .dark-themed {
+      background-color: #C36B5B;
+    }
+    .dark-themed a {
+      color: white;
+    }
+    .dark-themed h6 {
+      color: lightgrey;
     }
   }
