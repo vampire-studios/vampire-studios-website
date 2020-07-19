@@ -2,3 +2,5 @@
 .DS_Store
 .sass-cache/
 main2.css.map
+
+config.json

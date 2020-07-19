@@ -6,6 +6,6 @@
     "browserify": "^16.5.1"
   },
   "scripts": {
-      "build": "browserify ./src/js/translate.js -o./js/translate.js"
+      "build": "browserify ./src/translate.js -o./js/translate.js"
   }
 }
