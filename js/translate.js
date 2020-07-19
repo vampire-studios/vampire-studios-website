@@ -92479,7 +92479,15 @@ async function loadLanguageList() {
 
 document.getElementById("valid-info-button").onclick = async function onInfoSend() {
     console.log("Info sent!")
-    console.log(document.getElementById("show-mod-form").value)
+    var show_mod = document.getElementById("show-mod-form").value
+    var language = document.getElementById("language-form").value
+    var project = document.getElementById("project-form").value
+
+    if (project !== "-" && language !== "-") {
+
+    } else {
+        return
+    }
 }
 
 main();
