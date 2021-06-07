@@ -378,10 +378,10 @@ input:checked + .slider:before {
 
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: #66544C;
+    background-color: #4e4e50;
   }
   .dark-themed {
-    background-color: #C36B5B;
+    background-color: #6f2232;
   }
   .dark-themed a {
     color: white;
