@@ -1,8 +1,4 @@
 <template>
-  <!-- <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </div> -->
   <nav class="navbar navbar-expand-lg dark-themed" style="margin-bottom: 10%;">
       <router-link class="navbar-brand" to="/">
           <img src="res/images/profile2.png" width="30" height="30" class="d-inline-block align-top" alt="">
