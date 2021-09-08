@@ -1,6 +1,6 @@
 <template>
 <div>
-    <h2>For our released projects</h2>
+    <h2>{{ $t('translate-crowdin') }}</h2>
     <a href="https://crowdin.com/project/randomly-adding-anything">Randomly Adding Anything Core</a><br>
     <a href="https://crowdin.com/project/randomly-adding-anything-mater">Randomly Adding Anything Materials</a>
 </div>

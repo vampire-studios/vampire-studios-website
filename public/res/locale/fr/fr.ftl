@@ -1,0 +1,1 @@
+nav-about-the-team = À propos de l'équipe
