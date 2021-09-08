@@ -1,6 +1,0 @@
-const fs = require('fs')
-let script = fs.readFileSync("./js/translate.js",{encoding:"utf-8"})
-script = script.replace("GOOGLE_SERVICE_ACCOUNT_EMAIL", process.env.GOOGLE_SERVICE_ACCOUNT_EMAIL)
-script = script.replace("GOOGLE_PRIVATE_KEY", process.env.GOOGLE_PRIVATE_KEY)
-script = script.replace("SPREADSHEET_ID", process.env.SPREADSHEET_ID)
-fs.writeFileSync('./js/translate.js', script)
