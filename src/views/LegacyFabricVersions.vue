@@ -162,7 +162,7 @@ fabric_version={fabric_version}</code></pre>
 
     }
 
-    function findVersion(url: string|URL, branch: string, onLoad: (arg0: string|null) => void) {
+    function findVersion(url: string, branch: string, onLoad: (arg0: string|null) => void) {
         let xhttp = new XMLHttpRequest();
         xhttp.onreadystatechange = function () {
             if (this.readyState == 4 && this.status == 200) {
@@ -192,7 +192,7 @@ fabric_version={fabric_version}</code></pre>
         xhttp.send();
     }
 
-    function getJSON(url: string|URL, callback: { (data: any): void; (data: any): void; (arg0: any): void; }) {
+    function getJSON(url: string, callback: { (data: any): void; (data: any): void; (arg0: any): void; }) {
         var xhr = new XMLHttpRequest();
         xhr.open('GET', url, true);
         xhr.responseType = 'json';
