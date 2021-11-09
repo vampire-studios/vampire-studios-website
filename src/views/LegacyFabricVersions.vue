@@ -1,9 +1,9 @@
 <template>
   <h1>Legacy Fabric Latest Versions</h1>
 
-    <img alt="Discord" src="https://img.shields.io/discord/507304429255393322.svg?label=discord"> <img
+    <!-- <img alt="Discord" src="https://img.shields.io/discord/507304429255393322.svg?label=discord"> <img
         alt="GitHub stars" src="https://img.shields.io/github/stars/Legacy-Fabric/yarn.svg?label=Yarn&style=social"> <img
-        alt="GitHub stars" src="https://img.shields.io/github/stars/Legacy-Fabric/fabric.svg?label=Fabric&style=social">
+        alt="GitHub stars" src="https://img.shields.io/github/stars/Legacy-Fabric/fabric.svg?label=Fabric&style=social"> -->
 
     <p>Minecraft Version:
         <select name="versions" id="versions" v-on:change="updateSelection()">
